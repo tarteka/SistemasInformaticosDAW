@@ -445,5 +445,148 @@ Para que tengas una información más completa sobre las unidades de entrada/sal
 * [Memoria USB](http://es.wikipedia.org/wiki/Memoria_USB)
 {% endhint %}
 
+## 4. Montaje de un ordenador de sobremesa
 
+Materiales a utilizar para la instalación:
+
+![](.gitbook/assets/si01_cont_r66_muestracomponentes.jpg)
+
+> Hay que aclarar que se utilizan estos componentes de estas marcas igual que se podrían haber utilizado de cualquier otra marca. Sin que haya de por medio ningún interés lucrativo ni comercial.
+
+La elección obedece a que es representativo de lo que se quiere exponer y a la disponibilidad de este material en el momento de crear este texto.  Empecemos haciendo un repaso de todo el hardware del que disponemos para montar el ordenador:
+
+* **Caja de tipo semitorre**, que incluye:
+  * La fuente de alimentación.
+  * La tornillería necesaria para la fijación de componentes.
+  * Los cables del panel frontal para conexión de los LED indicadores y de los pulsadores de reinicio y de encendido.
+  * Los cables del panel frontal para conexión de dispositivos USB y de sonido.
+  * Un pequeño altavoz.
+  * Una placa que se añade por si es necesario tapar el hueco de la caja que ya viene hecho de fábrica, en el lugar que corresponde a la tarjeta gráfica, por si acaso no se instala ninguna o se coloca en otra posición.
+* **Placa base**, modelo G41T-R3 de la marca ELITEGROUP, con vídeo, sonido y red integrados. Es apropiada para el procesador que vamos a utilizar.
+
+  En la misma caja vienen embalados: 
+
+  * El manual de la placa base, y el CD con sus drivers.
+  * La placa base, empaquetada en una bolsa de plástico antiestático.
+  * Dos cables de datos SATA, para las unidades de almacenamiento internas.
+  * Una plaquita de metal adaptada a los huecos de los conectores externos de la placa.
+
+* El **Disco duro**, de tipo SATA con 250 GB de capacidad.
+* La **unidad óptica** es un lector/grabador DVD con conexión SATA.
+* Un **lector de tarjetas** de memoria flash.
+* La **memoria**, un sólo DIMM de tipo DDR3 a 1066 Mhz de 2 GB de capacidad.
+* El **microprocesador** es un Pentium de la marca Intel modelo E6700 LGA775, totalmente compatible con el zócalo de la placa base que hemos adquirido. Empaquetado en su misma caja viene el conjunto disipador ventilador que vamos a utilizar para su refrigeración.
+* La placa base ya lleva integrado un **controlador gráfico** con salida externa SVGA, pero como queremos mejores prestaciones gráficas vamos a añadir una **tarjeta de vídeo** para zócalo PCI Express con ventilación pasiva \(con disipador pero sin ventilador\) y con conexiones externas de tipo SVGA, DVI y HDMI. La placa base esta diseñada de forma que al reconocer la nueva tarjeta adaptadora de tipo gráfico, deshabilita automáticamente la integrada y libera la memoria que tuviera reservada para su uso propio. 
+* **Tarjeta de red inalámbrica** de tipo PCI, para disponer de conexión Wi-Fi.
+* **Jeringuilla de pasta térmica** para poner entre el procesador y el disipador.
+
+ **Herramientas necesarias o recomendables.**
+
+* Destornillador de estrella \(o Philips\) para abrir y cerrar la caja y para fijar los componentes.
+* Un destornillador plano puede ser útil para retirar alguna placa metálica o plástica haciendo palanca.
+* Alicates pequeños con punta delgada para apretar los tornillos separadores.
+* Pinzas alargadas y finas para poder recuperar tornillos de zonas poco accesibles en caso de ser necesario.
+* Pulsera antiestática para evitar posibles descargas dañinas sobre los componentes.
+
+ **Precauciones y advertencias de seguridad.**
+
+ Antes de ponernos a trabajar deberemos tener en cuenta las siguientes consideraciones de seguridad:
+
+* Las conexiones y desconexiones que se realicen sobre la placa base deben realizarse con el ordenador apagado y desconectado de la toma de corriente eléctrica. De esta forma se evitan cortocircuitos e incluso incendios. Por si acaso debe tener a mano un extintor adecuado para elementos electrónicos.
+* Para trabajar cómodamente se necesita disponer de una amplia superficie de trabajo, suficientemente iluminada, sobre la que colocar tanto los componentes como las herramientas necesarias. Procure alejar de esta zona cualquier clase de líquido y cualquier cosa que produzca electricidad estática como alfombras, moquetas, mantas, etc.
+* Debe tenerse especial cuidado en auto descargarse de nuestra posible electricidad estática a la hora de manipular componentes para evitar que esta les produzca algún tipo de daño, de no hacerlo, elementos como las memorias se podrían dañar y quedar inutilizadas. Para ello se debe tocar algún elemento metálico como la propia caja del ordenador o utilizar una pulsera antiestática.
+* Es necesario contar con un juego de herramientas adecuadas, entre las que se deben incluir una pulsera antielectricidad estática, destornilladores planos y de estrella que no estén imantados, pequeños alicates, pinzas, etc.
+* Todos y cada uno de los conectores que se utilizan en la placa base y por extensión en el ordenador tienen un diseño único en su forma y en la disposición de sus contactos que les impide ser insertados erróneamente en donde no les corresponda.
+* Para trabajar con seguridad es conveniente no llevar puestos abalorios como colgantes, pulseras, relojes, anillos, etc. que puedan rozar o engancharse en algún elemento, esto es también aplicable a la ropa "suelta" tipo corbata, fular, mangas anchas, etc.
+* Algunos componentes, como placas base o tarjetas de expansión, tienen en su parte posterior los extremos de los componentes que sobresalen de las soldaduras como pequeños pinchos que pueden clavarse en la piel. Por lo que se aconseja que estas placas se manipulen cogiéndolas por los cantos.
+* Hay que poner especial cuidado para evitar que puedan producirse heridas de forma involuntaria por ejemplo al rozarse con algún componente o al cortarse con los cantos afilados de alguna chapa, o al pellizcarse mientras se inserta o extrae algún elemento o incluso si nos cae encima algún elemento pesado mientras se manipula. También hay que evitar tocar los elementos que puedan estar calientes como el procesador, o que trabajen con alto voltaje como la fuente de alimentación o el monitor.
+
+{% hint style="info" %}
+Para tener una información más completa sobre la seguridad en el trabajo relacionado con el uso de la electricidad.
+
+[Enlace a página web con información sobre normativa de seguridad en el trabajo con aparatos eléctricos.](http://www.tuveras.com/seguridad/seguridad.htm)
+{% endhint %}
+
+## 5. Principales conectores de la placa base
+
+### 5.1 **Zócalo \(o socket\) del microprocesador**
+
+Según la forma de inserción del procesador, actualmente existen dos tipos de zócalos:
+
+* ZIF \(Zero Insertion Force\). Tiene un mecanismo que permite introducir las patillas del procesador sin hacer presión para evitar que pueda estropearse. Una palanca que gira hace que se ajusten los contactos. Para su retirada el movimiento contrario de la palanca hace que el procesador quede suelto y pueda ser retirado sin esfuerzo.
+* LGA \(Land Grid Array\). En este caso los pines se encuentran en el propio zócalo mientras que los contactos del procesador son lisos. También hay una palanca que ajusta el procesador al zócalo con ayuda de una especie de marco metálico que lo rodea manteniéndolo inmovilizado.
+
+Según el número de contactos y su distribución en el conector tendríamos una clasificación bastante amplia de microprocesadores. La clasificación también depende del fabricante \(AMD o Intel\) y de sus gamas de modelos.
+
+Veamos a continuación algunos de los zócalos empleados por ambos fabricantes:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Los z&#xF3;calos o socket para procesadores AMD</th>
+      <th style="text-align:left">Los z&#xF3;calos o socket para procesadores Intel</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <ul>
+          <li>Slot A Duron, Athlon</li>
+          <li>Socket A Duron, Athlon, Athlon XP, Sempron</li>
+          <li>Socket 754 Athlon 64, Mobile Athlon 64, Sempron, Turion</li>
+          <li>Socket 939 Athlon 64, Athlon FX , Athlon X2, Sempron, Opteron</li>
+          <li>Socket 940 Opteron y Athlon 64 FX</li>
+          <li>Socket AM2 Athlon 64, Athlon FX, Athlon X2, Sempron, Phenom</li>
+          <li>Socket F Opteron</li>
+          <li>Socket AM2 + Athlon 64, Athlon FX, Athlon X2, Sempron, Phenom</li>
+          <li>Socket AM3 Phenom II X2/X3/X4.</li>
+          <li>Socket AM4 Phenom III X3/X4/X5</li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <ul>
+          <li>Slot 1: Pentium II, Pentium III, Celeron</li>
+          <li>Socket 370: Pentium III, Celeron</li>
+          <li>Socket 423: Pentium 4</li>
+          <li>Socket 478: Pentium 4, Celeron</li>
+          <li>Socket 775: Pentium 4, Celeron, Pentium D (doble n&#xFA;cleo), Core 2
+            Duo, Core 2 Quad Core 2 Extreme, Xeon</li>
+          <li>Socket 603 Xeon</li>
+          <li>Socket 604 Xeon</li>
+          <li>Socket 771 Xeon</li>
+          <li>LGA1366 Intel Core i7, Xeon</li>
+          <li>LGA1156 Intel Core i3, Intel Core i5, Intel Core i7</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### **5.2 Zócalos o Ranuras de Memoria**
+
+Estos conectores son estrechos y alargados, de unos 13,3 centímetros. Tienen unas pestañas en los extremos que sujetan las placas de memoria al ser insertadas, verticalmente, con una ligera presión.
+
+Suelen tener algún resalte que obliga a colocar las placas de memoria con su muesca en la posición correcta.
+
+El número de contactos de cada ranura varía en función del tipo de memoria soportada por el chipset de la placa base que por supuesto debe coincidir con el número de contactos de la placa de memoria.
+
+En la actualidad se usan módulos de memoria tipo DIMM con 3 variantes:
+
+* DIMM de 168 pines, para memoria SDRAM.
+* DIMM de 184 pines, para memoria DDR.
+* DIMM de 240 pines, para memoria DDR2 o DDR3.
+
+La posición de las muescas varia en cada modelo para hacerlas incompatibles entre si y para evitar confusiones.
+
+El número de zócalos de memoria puede variar en cada modelo de placa, pero suelen agruparse en bancos de 2 o 4 ranuras de memoria. Si una placa contiene dos tipos distintos de ranuras es porque admite la instalación de dos tipos distintos de memorias, aunque no puedan usarse ambos tipos simultáneamente.
+
+### **5.3 Ranuras de expansión o slot de expansión**
+
+Sirven para insertar en ellos tarjetas adaptadoras en las que conectar dispositivos periféricos: como la tarjeta de vídeo para conectar el monitor, o la tarjeta de sonido para conectar los altavoces, etc.
+
+Con la inserción de estas tarjetas se añaden al ordenador controladores adicionales, a los que poder conectar nuevos dispositivos periféricos compatibles cuando sean necesarios.
+
+En las placas actuales podemos encontrar ranuras del tipo PCI y PCI Express de distintas velocidades. Cada una de ellas tiene sus propias características, variando en velocidad de transmisión, en número de conexiones y en tamaño.
+
+Insertar una tarjeta en su ranura correspondiente es tan simple como ejercer una suave presión vertical para lograr que sus conectores se alojen en la ranura de expansión. A continuación, para evitar movimientos indeseados, la tarjeta se sujeta a la caja mediante un tornillo situado en la placa metálica de la tarjeta, que da al exterior de la caja del ordenador y desde la que vemos la nueva conexión externa proporcionada por la tarjeta.
 
