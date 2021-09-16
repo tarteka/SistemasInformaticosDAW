@@ -48,3 +48,30 @@ La arquitectura funcional vigente hoy día en la construcción de ordenadores fu
 >
 >  Puedes ampliar información sobre esta arquitectura y su autor en el siguiente enlace de la Wikipedia. [Arquitectura Von-Neumann.](http://es.wikipedia.org/wiki/Arquitectura_de_von_Neumann)
 
+### 2.1 Unidad Central de Proceso o CPU
+
+La Unidad Central de Proceso es el componente que debe tener un ordenador para considerarse como tal. Viene a ser como un cerebro que debe controlar, dirigir y coordinar todas las operaciones que necesite realizar el ordenador. Todo ello lo hace siguiendo las instrucciones que recibe de los programas que esté ejecutando.
+
+Para que la CPU pueda ejecutar un **programa** es necesario que esté alojado en su memoria central, desde donde va extrayendo en secuencia cada una de sus instrucciones, analizándolas y emitiendo las órdenes necesarias al resto de componentes que deban intervenir para completar su ejecución.
+
+La Unidad Central de Proceso esta integrada en el Procesador Central o microprocesador y acompañada por una pequeña cantidad de **registros** de Memoria necesarios para su funcionamiento.
+
+Por tanto en la Unidad Central de Proceso como parte integrante del Microprocesador, deben existir dos unidades:
+
+* **La Unidad de Control**, que se encarga de ejecutar los programas, controlando su secuencia, interpretando y ejecutando sus instrucciones. Se encarga también de controlar al resto de componentes; como los periféricos, la memoria, la información que hay que procesar, etc., a tenor de lo que van necesitando las instrucciones.
+*  **La Unidad Aritmético-Lógica** que hace los cálculos matemáticos y los cálculos lógicos necesarios para su funcionamiento.
+
+La memoria central, conocida como RAM \(Random Access Memory\), es la encargada de almacenar los datos y las instrucciones de los programas que deben ejecutarse, así como toda aquella información que el sistema necesite para su funcionamiento. Está constituida por un grupo de registros capaces de retener información en su interior mientras el ordenador se encuentre encendido. Cuando el ordenador se apaga, se pierde su contenido.
+
+Los sistemas de Entrada/Salida son circuitos electrónicos que permiten el intercambio de información entre la CPU y los periféricos. Las unidades de entrada se utilizan para cargar programas y datos en la memoria principal desde los periféricos de entrada, y las unidades de salida se utilizan para sacar los resultados de los procesos realizados a través de los periféricos de salida.
+
+Los Buses del Sistema son el conjunto de circuitos eléctricos que conectan la CPU con el resto de unidades para comunicarse entre sí. Cada bus es un conjunto de cables o pistas de un circuito integrado, que permiten la transmisión en paralelo de la información entre los diferentes componentes del ordenador.
+
+Hay tres clases distintas de buses:
+
+* **El bus de instrucciones y datos**. Utilizado para trasladar tanto instrucciones como datos desde la memoria RAM al resto de componentes del ordenador y viceversa.
+* **El bus de control**. La CPU transmite por él las órdenes \(microórdenes\) al resto de unidades. Y recibe de ellas señales indicando su estado.
+* **El bus de direcciones.** Por él se transmiten las direcciones de destino de los datos que se envían por el bus de datos.
+
+Veamos el siguiente ejemplo para entender su interacción: cuando la CPU tiene que obtener la información contenida en una posición de memoria, debe indicar su dirección mediante el bus de direcciones, pero también debe mandar una señal de lectura por el bus de control. Para recibir, a continuación, dicha información por el bus de datos.
+
