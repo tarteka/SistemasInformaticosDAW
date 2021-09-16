@@ -384,3 +384,66 @@ Aunque de uso menos frecuente podemos citar otros periféricos de entrada como:
 * Lectores de huellas digitales, o del iris del ojo humano, etc.
 * Capturadores de señales analógicas procedentes de sensores de humo, o de inundación, de detectores de presencia, o de temperatura, etc. que las convierten en señales digitales para su tratamiento informático. Son utilizadas en la industria o en los hogares para modificar las condiciones ambientales.
 
+### 3.9 Unidades de salida I
+
+Son todos aquellos periféricos mediante los cuales el usuario puede obtener información del ordenador. Junto con los periféricos de entrada son los elementos de comunicación entre el hombre y la máquina. A continuación vamos a ver algunos de los más habituales. 
+
+**El monitor o pantalla de ordenador** es un dispositivo que muestra la interfaz proporcionada por los programas para que interactuemos con ellos. Mediante esta interfaz visual que permite la interacción hombre/máquina podemos hacer que se ejecuten programas al pulsar sobre sus iconos y atender a las peticiones que estos nos hagan, y por supuesto, ver sus resultados. También nos permite ver los datos mientras los introducimos por el teclado o los movimientos del puntero cuando movemos el ratón. 
+
+Como características de los monitores podemos citar:
+
+* **Tipo de panel**. Se espera que los OLED revolucionen el sector de los monitores, pero mientras eso ocurre los tipos más comunes son los LCD y TFT LCD en sus diferentes versiones:
+  * TN
+  * MVA
+  * PVA
+  * IPS
+* **Tamaño del monitor,** expresa la longitud de su diagonal medida en pulgadas.
+* **Relación de aspecto.** Es la proporción entre las medidas de anchura y altura de un monitor, calculándose dividiendo ambas y expresándose por lo general como “X:Y”, aunque también podremos encontrarlo por su denominación comercial, como ejemplo “Ultrawide”. Existen un montón de ellas aunque las más frecuentes en monitores actuales son 16:9, 16:10 o 21:9
+* **La resolución**, en un monitor cuanto mayor sea su resolución, mejor será la calidad de la imagen en su pantalla. La resolución representa el número total de puntos que puede representar la pantalla, se expresa como el producto de dos números \[horizontal x vertical\]. Así, que un monitor tenga una resolución máxima de 1024x768 puntos quiere decir que puede representar hasta 768 líneas horizontales de 1024 puntos cada una, pudiendo además representar otras resoluciones inferiores, como son 800x600 o 640x480.
+* **Frecuencia de actualización,** es la frecuencia con la que una imagen es dibujada en la pantalla de un monitor y su valor se expresa en hercios. Este valor depende mucho de la resolución nativa. Cuanto mayor sea, más difícil es aumentarla.
+* **Tiempo de respuesta,** el tiempo que necesita un píxel para cambiar de un color o tonalidad a otra y volver a su original.
+
+La conexión de los monitores más comunes hoy en día son **VGA, HDMI y DisplayPort.**
+
+![](.gitbook/assets/3.8pantalla.png)
+
+#### **3.9.1 Unidades de salida II**
+
+Una de las unidades de salida más utilizada junto con los monitores es la impresora.
+
+**Una impresora** es un periférico de salida que permite plasmar sobre papel información procedente del ordenador. Se puede considerar a la impresora como el periférico más antiguo, incluso más que el teclado o el monitor. Debe ser por eso que existe tanta variedad de impresoras. Tienen su puerto de conexión propio, el puerto paralelo, aunque esta cayendo en desuso en favor del USB o de la conexión a la red, ya sea alámbrica o inalámbrica.
+
+Pueden estar dedicadas a un solo ordenador o compartidas entre varios, y pueden ser dispositivos únicos o multifunción cuando van unidos en la misma carcasa a un escáner o a un fax. Necesitan de un cable o fuente de alimentación eléctrica para abastecerse de energía.
+
+{% hint style="info" %}
+Para que tengas una información más completa sobre las unidades de salida que hemos tratado, sigue los enlaces que te facilitamos a continuación:
+
+* [Monitores.](http://es.wikipedia.org/wiki/Monitor_de_computadora)
+* [Altavoces.](http://es.wikipedia.org/wiki/Altavoz)
+* [Impresoras.](http://es.wikipedia.org/wiki/Impresora)
+* [Plóteres.](http://es.wikipedia.org/wiki/Ploter)
+{% endhint %}
+
+### **3.10 Unidades de entrada/salida**
+
+Son aquellos periféricos que cumplen las dos funciones, la de introducir datos al ordenador y la de extraer datos bien sea para enviarlos a otro ordenador, para guardarlos de forma estable hasta que sean necesitados de nuevo o simplemente para ser mostrados al usuario del ordenador.
+
+{% hint style="info" %}
+Para que tengas una información más completa sobre las unidades de entrada/salida que hemos tratado, sigue los enlaces que te facilitamos a continuación:
+
+* [Pantalla táctil.](http://es.wikipedia.org/wiki/Pantalla_t%C3%A1ctil)
+* [Módem.](http://es.wikipedia.org/wiki/M%C3%B3dem)
+* [Tarjeta de red.](http://es.wikipedia.org/wiki/Tarjeta_de_red)
+* [Cinta de datos](http://es.wikipedia.org/wiki/Cinta_magn%C3%A9tica_de_almacenamiento_de_datos)
+* [Disco duro.](http://es.wikipedia.org/wiki/Disco_duro)
+* [Almacenamiento óptico.](http://es.wikipedia.org/wiki/Historia_de_los_medios_de_almacenamiento_%C3%B3ptico)
+* [Lector de CD.](http://es.wikipedia.org/wiki/Disco_compacto#Lectora_de_CD)
+* [DVD.](http://es.wikipedia.org/wiki/DVD)
+* [Blu-ray](http://es.wikipedia.org/wiki/Blu-ray)
+* [Disco óptico.](http://es.wikipedia.org/wiki/Disco_%C3%B3ptico)
+* [Tarjeta de memoria.](http://es.wikipedia.org/wiki/Tarjeta_de_memoria)
+* [Memoria USB](http://es.wikipedia.org/wiki/Memoria_USB)
+{% endhint %}
+
+
+
