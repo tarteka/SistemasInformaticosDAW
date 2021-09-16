@@ -590,3 +590,24 @@ En las placas actuales podemos encontrar ranuras del tipo PCI y PCI Express de d
 
 Insertar una tarjeta en su ranura correspondiente es tan simple como ejercer una suave presión vertical para lograr que sus conectores se alojen en la ranura de expansión. A continuación, para evitar movimientos indeseados, la tarjeta se sujeta a la caja mediante un tornillo situado en la placa metálica de la tarjeta, que da al exterior de la caja del ordenador y desde la que vemos la nueva conexión externa proporcionada por la tarjeta.
 
+### 5.4 Conectores para dispositivos internos
+
+Aquí vamos a agrupar los conectores que se incluyen en las placas base para distintos usos:
+
+* Conectores para dispositivos de almacenamiento:
+  * Los conectores IDE _\(Integrated Device Electronics\)_, usados para conectar discos duros y dispositivos ópticos de almacenamiento como el DVD. Suelen venir un máximo de dos que permiten conectar hasta cuatro dispositivos. Dos dispositivos por conector.
+  * Los conectores SATA _\(Serial Advanced Technology Attachment\)_, para conectar discos duros y lectores y/o grabadoras de DVD o Blu-ray. Suelen venir por parejas, así habrá 2, 4 o 6 conectores. Cada conector admite un solo dispositivo.
+  * También existen los conectores SCSI _\(Small Computers System Interface\)_, incluidas sus nuevas versiones serie SCSI, para este tipo de dispositivos, pero no suelen utilizarse en equipos domésticos por su elevado precio en comparación con los anteriores.
+
+![Conector IDE](.gitbook/assets/si01_auxr23_r18_conectoreside3.jpg)
+
+![Conectores SATA](.gitbook/assets/si01_auxr23_r22_conectoressata3.jpg)
+
+* Conectores para puertos USB adicionales, en ellos se conectan los cables que prolongan la conexión USB hacia la parte trasera o hacia el frontal de la caja. O para conectar dispositivos como lectores de tarjetas de memoria.
+
+![Conectore USB](.gitbook/assets/si01_auxr23_r27_conectoresusbinternos3.jpg)
+
+* Conectores de sonido para conectar los cables que llevan la conexión hasta los jacks del frontal de la caja.
+
+
+
