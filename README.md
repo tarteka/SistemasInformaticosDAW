@@ -34,3 +34,17 @@ El sistema informático más simple estará formado por un sólo ordenador y por
 
 Existen muchos tipos de ordenadores, así que pueden ser clasificados en función de diversos criterios.
 
+## 2. Arquitectura Hardware: Componentes funcionales
+
+La arquitectura funcional vigente hoy día en la construcción de ordenadores fue concretada por John Von Neumann a mediados del siglo pasado. Está basada en los siguientes componentes que se interrelacionan entre sí a través del bus del sistema que actúa como canal de comunicación entre ellos:
+
+* La Unidad Central de Proceso \(CPU, por sus iniciales en inglés\).
+* La memoria principal.
+* Los sistemas de Entrada/Salida.
+
+![](.gitbook/assets/si01_cont_r02_01_dibujoarquitecturavonneumann.jpg)
+
+> **Para saber más:**
+>
+>  Puedes ampliar información sobre esta arquitectura y su autor en el siguiente enlace de la Wikipedia. [Arquitectura Von-Neumann.](http://es.wikipedia.org/wiki/Arquitectura_de_von_Neumann)
+
