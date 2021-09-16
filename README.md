@@ -238,3 +238,149 @@ Para obtener más información sobre la refrigeración del calor de los procesad
 * [¿Cómo funciona un disipador de calor?](https://www.quonty.com/blog/disipador-de-calor/)
 {% endhint %}
 
+### 3.4 Memorias
+
+La memoria de acceso aleatorio RAM \(del inglés: Random-Access Memory\) es la memoria que necesita el procesador para ejecutar los programas. En ella busca las instrucciones y los datos, y en ella guarda los resultados.
+
+Físicamente, los módulos de memoria RAM son pequeñas tarjetas de circuito impreso a las que se sueldan los chips de memoria, por una o por ambas caras. Llevan en uno de sus cantos una fila de pines o contactos metálicos para insertarlos en los zócalos de memoria de la placa base.
+
+Los módulos que actualmente se encuentran en el mercado son del tipo DDR \(Double Data Rate\) o doble tasa de transferencia de datos que vienen integradas en tarjetas de memoria **Dimms**.
+
+Los encontramos diferentes versiones, que podemos reconocer por el número de contactos y por la posición en la que tienen la muesca que les impide su colocación de forma incorrecta. En los enlaces del apartado "Para saber más" podéis encontrar las principales diferencias entre unas versiones y otras.  
+
+
+La placa base debe ser compatible con las memorias, tanto en el estándar del zócalo, así como, admitir la frecuencia de estas. De nada servirá poner una memoria con mayor frecuencia si la placa base no lo soporta.
+
+Por último, debe tenerse en cuenta la cantidad de memoria que soporta el sistema operativo con el que se vaya a trabajar, pero esto lo analizaremos con más detalle en las siguientes unidades.  
+
+![](.gitbook/assets/3.4memoria.jpg)
+
+### 3.5 Discos duros
+
+El disco duro, o HDD \(del inglés Hard Drive Disk\) es un dispositivo de almacenamiento que emplea un sistema de grabación magnética para almacenar datos digitales.
+
+Esta compuesto por uno o mas discos rígidos, de aluminio o de material vitrocerámico, que se recubren de una fina capa de material magnetizable, encerrados en una caja sellada, para evitar la entrada de impurezas que puedan perjudicar su funcionamiento.
+
+La información se registra en ellos mediante variaciones en el campo magnético, de forma que un punto puede estar magnetizado en un sentido, para representar un 1, o en otro para representar un 0.
+
+Los discos rígidos, también llamados platos están unidos por un eje a un motor que los hace girar simultáneamente a gran velocidad. Según modelos son comunes velocidades de giro de los discos de 5.400 revoluciones por minuto o de 7.200 revoluciones por minuto, aunque en algunos discos basados en servidores pueden llegar a hasta 15.000 RPM
+
+Hoy en día podemos encontrar discos de **estado solido** denominados **SSD** \(Solid State Drive\), los cuales no funcionan con discos . Los SSD almacenan los archivos en microchips con memorias flash interconectadas entre sí e incluyen un procesador integrado. 
+
+Las interfaces para conexiones internas, son las utilizadas por los dispositivos que se alojan dentro del ordenador:
+
+* **El interfaz ATA o PATA\(Parallel ATA\)**, más conocidos como **IDE** y sus variaciones: están quedando desfasados en favor del nuevo interfaz SATA \(Serial ATA\). La velocidad de su mejor versión llegaba a soportar velocidades de hasta 166 MB/s.
+* **El interfaz SATA**: Utiliza un bus serie para la transmisión de datos, siendo mas rápido y eficiente que el bus paralelo IDE. Existen tres versiones, SATA 1, 2 y 3 con velocidades de transferencia de hasta 1,5, 3 y 6 GB/s respectivamente.
+* **El interfaz SCSI**: Son interfaces preparadas para discos de gran capacidad de almacenamiento y de gran velocidad de rotación que se utiliza en servidores a nivel profesional. De estos también existen tres versiones: SCSI Estándar \(Standard SCSI\), SCSI Rápido \(Fast SCSI\) y SCSI Ancho-Rápido \(Fast-Wide SCSI\) con velocidades de 5, 10 y 20 MB/s respectivamente. Y también existe SAS \(Serial Attached SCSI\): la nueva y más rápida versión serie del SCSI en paralelo.
+* **PCI Express:** Puede lograr un ancho de banda muy superior al que se obtiene mediante el puerto SATA III. Concretamente tenemos un máximo de 32 GB/s frente a los 6 GB/s que nos ofrece SATA III.
+
+Interfaces para conexiones externas son las utilizadas por los discos duros externos que se conectan ocasionalmente al ordenador: A través de USB, de **FireWire**, de Serial ATA externo \(eSATA\), de SCSI y SAS externos o mediante conexión de red alámbrica o Wi-Fi.
+
+{% hint style="info" %}
+Para obtener más información sobre los tipos de discos duros.
+
+* [HDD vs SSD.](https://www.xataka.com/basics/hdd-vs-ssd)
+* [SSD.](https://www.profesionalreview.com/2017/06/13/disco-ssd-sata-vs-m-2-vs-ssd-pci-express/)
+{% endhint %}
+
+### 3.6 Tarjetas de vídeo
+
+Una tarjeta de vídeo o tarjeta gráfica, es una tarjeta de expansión adicional, que adapta los datos enviados por el procesador al monitor o a un proyector para que el usuario pueda verlos representados.
+
+La conexión de estos adaptadores o controladores gráficos a la placa base se hace actualmente a través del bus PCI Express x16, ya que necesitan un bus rápido de comunicación. Hay modelos de placas base que integran en su circuitería un controlador gráfico de suficiente calidad como para un uso normal del ordenador, pero que se queda escaso de potencia trabajando para aplicaciones que hagan un uso intensivo de representaciones gráficas, como por ejemplo juegos en 3D.
+
+Para satisfacer las superiores necesidades gráficas de algunos programas, de diseño o de juegos, hay placas que ofrecen la posibilidad de conectar más de una tarjeta de vídeo de modo que ambas trabajen como una sola aumentando considerablemente su potencia.[                    ](https://ikastaroak.birt.eus/edu/es/DAMDAW/SI/SI01/es_DAMDAW_SI01_Contenidos/3.5TarjetaGrafica2.jpg)
+
+Las tarjetas gráficas integran los siguientes componentes:
+
+- **La GPU** es un procesador dedicado en exclusiva al tratamiento de gráficos, que libera al procesador central de esta tarea. Igualmente necesita de sistemas para la disipación del calor que producen.
+
+- **La memoria** que incorporan es para uso exclusivo de la propia tarjeta. Se llama memoria de vídeo y suele ser incluso más eficiente que la RAM del ordenador. Cuando la tarjeta gráfica está integrada en la placa base se reserva para su uso particular una parte de la memoria RAM del ordenador.
+
+Los **sistemas de conexión** más habituales entre la tarjeta gráfica y el monitor son las siguientes, aunque no son las únicas que podemos encontrar:
+
+* **VGA.**
+* **DVI.**
+* **HDMI**.
+* **Display Port.**
+
+{% hint style="info" %}
+ Para obtener más información sobre las tarjetas de vídeo.  [Información sobre tarjetas de vídeo.](http://es.wikipedia.org/wiki/Tarjeta_de_video)
+{% endhint %}
+
+### 3.7 Tarjetas de sonido
+
+Una tarjeta de sonido es una tarjeta de expansión que permite la entrada y salida de audio a través de sus conectores. Normalmente se inserta en una ranura PCI, aunque la mayoría de modelos de placa base ya vienen con la tarjeta de sonido integrada. Las tarjetas de sonido incorporan los conectores tipo mini **jack** que se necesitan para la conexión de los dispositivos de sonido.
+
+Los conectores vienen codificados por colores:
+
+* Entrada analógica para **micrófono**: color **rosa**.
+* Entrada analógica **"Line-In": azul.**
+* Salida analógica para la señal **estéreo** principal \(altavoces frontales\): **verde**.
+* Salida analógica para altavoces **traseros**: **negro**.
+* Salida analógica para altavoces **laterales**: **plateado**.
+* Salida Digital **SPDIF**: **naranja**.
+
+{% hint style="info" %}
+ Para obtener más información sobre las tarjetas de sonido.  [Información sobre tarjetas de sonido.](http://es.wikipedia.org/wiki/Tarjeta_de_sonido)
+{% endhint %}
+
+### 3.8 Unidades de entrada I
+
+Son todos aquellos periféricos que puede utilizar el usuario para introducir información al ordenador. Para ello será necesario que estén conectados al ordenador de alguna de las formas posibles. La mayoría de las conexiones utilizadas, sobre todo en dispositivos de bajo consumo, reciben la alimentación necesaria a través del propio conector, es el caso del teclado. Pero otros dispositivos cuyo consumo será mayor necesitan tener su propia fuente de alimentación. Por ejemplo algunos escáneres.
+
+**Teclado**
+
+Es una de las unidades de entrada más habituales y casi imprescindibles que utilizamos para enviar información al ordenador mediante la pulsación de sus teclas. Nos permite escribir textos, números y enviar señales de control. Su modo de funcionamiento incluye que lo tecleado aparezca automáticamente en la pantalla, y así comprobar que se ha tecleado lo correcto.
+
+Se conecta al ordenador por medio de un conector de tipo PS/2 \(o mini-din\) a su conexión exclusiva, o por medio de un conector USB. También los hay inalámbricos que necesitan dos terminales con emisor y receptor, uno de ellos en el propio teclado y el otro que debe estar conectado al ordenador por medio de conector PS/2 o USB. Además entre los inalámbricos nos encontramos los que utilizan tecnología bluetooth, que pueden aprovechar los emisores ya incorporados en el ordenador.
+
+**Ratón**
+
+El ratón es un pequeño dispositivo, que al ser desplazado por una superficie plana, mueve sobre la pantalla un cursor que lo representa reflejando sus movimientos.
+
+Dependiendo del modelo, un ratón puede tener dos o más botones, e incluso una o varias ruedas de desplazamiento, que permiten dar diversas órdenes en función del botón pulsado y del número de pulsaciones.
+
+El cursor, que suele tener aspecto de flecha, se utiliza para señalar los objetos gráficos que aparecen en la pantalla.
+
+Para su conexión al ordenador se utiliza su conexión PS/2 exclusiva o una conexión a un USB cualquiera. También como los teclados pueden ser inalámbricos, incluso hay modelos que pueden compartir el mismo transmisor base.
+
+**Escáner**
+
+Se utiliza para explorar objetos y obtener su representación digital. El proceso de digitalizar consiste en, tomar información de cada uno de los puntos de la superficie de un objeto, y representarlos con valores binarios para generar un duplicado virtual que pueda procesar el ordenador.
+
+Utiliza un cabe de tipo USB para conectarse al ordenador, en algunos modelos necesita toma de corriente eléctrica para su propia alimentación.
+
+Existen diferentes tipos de escáner: de sobremesa, de rodillo, de mano, de tambor, cenital, etc.
+
+#### 3.8.1 Unidades de entrada II
+
+Otras unidades de entrada que permiten introducir información al ordenador son:
+
+* **Lectores de códigos de barras**: hay lectores de mano y lectores fijos. Ambos son escáneres especializados en la tarea de leer e interpretar códigos de barras. No se utilizan para obtener el dibujo de las barras que escanean, sino el valor numérico que representan. Según los modelos existen varias posibilidades de conexión al ordenador: USB, puerto serie, Wi-Fi, bluetooth, incluso directamente al puerto del teclado por medio de un adaptador. 
+* **Tableta gráfica o tableta digitalizadora**: es un periférico que permite introducir gráficos o dibujos a mano, como si se hiciera con lápiz. y papel. Se trata de una tablilla plana especial sobre la que el usuario simula escribir utilizando el estilete \(o lapicero\) que le acompaña. Aunque en realidad los trazos van apareciendo sobre la pantalla del ordenador. Algunas tabletas tienen delimitadas zonas de actuación especial que actúan como botones al ser tocados con el lápiz, e incluso pueden utilizarse como un ratón de gran precisión ya que permite apuntar y seleccionar los objetos que se encuentran en la pantalla. Las tabletas digitalizadoras actuales suelen conectarse al ordenador mediante USB, aunque hay modelos que lo hacen mediante bluetooth o Wi-Fi. 
+* **Micrófono:** es un dispositivo que permite la introducción de sonidos al ordenador como música, señales acústicas o la propia voz. Su conexión se hace a través de un conector, llamado mini jack, proporcionado por la tarjeta de sonido que debe estar incluida en el ordenador para que pueda ser utilizado. También existe otro tipo de micrófonos que se conectan directamente al puerto USB y se comportan como un dispositivo de grabación de voz, sin necesidad de tarjeta de sonido. 
+* **Cámara digital:** Dispositivo cuya utilidad es captar imágenes y codificarlas en formato binario para que puedan ser procesadas por el ordenador. Estas capturas pueden ser almacenadas como imágenes estáticas o como imágenes en movimiento. Aunque las imágenes en movimiento, o vídeos, no son más que sucesiones de imágenes fijas captadas en brevísimos intervalos de tiempo. En la actualidad distinguimos dos tipos de cámaras, las llamadas cámaras web, que necesitan un ordenador para transmitir las imágenes al que se conectan mediante USB. O las llamadas cámaras de red, que se conectan a un punto de red, de forma alámbrica o inalámbrica.
+
+  La mayoría de los actuales ordenadores portátiles ya llevan incorporada una diminuta cámara web en su propia carcasa. También existen las cámaras fotográficas y de vídeo digitales, que aun trabajando de forma independiente pueden conectarse al ordenador por medio de cables USB o fireware, para descargar en él sus capturas.
+
+{% hint style="info" %}
+Para que tengas una información más completa sobre las unidades de entrada que hemos tratado, sigue los enlaces que te facilitamos a continuación:
+
+* [Teclados.](http://es.wikipedia.org/wiki/Teclado_%28inform%C3%A1tica%29)
+* [Ratones.](http://es.wikipedia.org/wiki/Rat%C3%B3n_%28inform%C3%A1tica%29)
+* [Joystick.](http://es.wikipedia.org/wiki/Joystick)
+* [Escáner.](http://es.wikipedia.org/wiki/Esc%C3%A1ner_de_computadora)
+* [Lectores de código de barras.](http://es.wikipedia.org/wiki/Lector_de_codigo_de_barras)
+* [Tabletas digitalizadoras.](http://es.wikipedia.org/wiki/Tableta_digitalizadora)
+* [Micrófonos.](http://es.wikipedia.org/wiki/Microfono)
+* [Cámaras web.](http://es.wikipedia.org/wiki/C%C3%A1mara_web)
+{% endhint %}
+
+Aunque de uso menos frecuente podemos citar otros periféricos de entrada como:
+
+* Lectores de marcas ópticas que identifican marcas de lápiz en test, en impresos, etc.
+* Lectores magnéticos de tarjetas: de crédito, de DNI, etc.
+* Lectores de huellas digitales, o del iris del ojo humano, etc.
+* Capturadores de señales analógicas procedentes de sensores de humo, o de inundación, de detectores de presencia, o de temperatura, etc. que las convierten en señales digitales para su tratamiento informático. Son utilizadas en la industria o en los hogares para modificar las condiciones ambientales.
+
